@@ -1,1 +1,66 @@
 // TODO
+.wrapper, .headerWrapper {
+  width: 100%;
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+
+  > header {
+    padding: 2rem 0;
+  }
+}
+
+.container {
+  margin-bottom:4rem;
+
+  .banner {
+    width: 100%;
+  }
+}
+
+.title {
+  font-weight: bold;
+  font-size: 48px;
+  color: var(--heading);
+  margin: 3rem 0 1rem 0;
+}
+
+.infoContainer {
+  display: flex;
+  gap: 1.75rem;
+  margin-bottom: 5rem;
+
+  .info {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+
+    span {
+      color: var(--info);
+    }
+  }
+}
+
+.subtitle {
+  color: var(--heading);
+  font-size: 30px;
+}
+
+.postContent {
+  margin-top: 2rem;
+  line-height: 2rem;
+  font-size: 1.125rem;
+  color: var(--body);
+
+  p, ul {
+    margin: 1.5rem 0;
+  }
+
+  ul {
+    padding-left: 1.5rem;
+
+    li {
+      margin: 0.5rem 0;
+    }
+  }
+}

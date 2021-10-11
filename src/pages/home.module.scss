@@ -1,1 +1,65 @@
 // TODO
+.wrapper {
+  width: 100%;
+  max-width: 920px;
+  margin: 0 auto;
+
+  > header {
+    padding: 3rem 0;
+  }
+}
+
+.container {
+  margin-bottom:4rem;
+}
+
+.postList {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+
+  > span {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--heading); 
+  }
+
+  .subtitle {
+    color: var(--body);
+    margin-top: 0.75rem;
+    font-size: 18px;
+  }
+
+  .info {
+    display: flex;
+    gap: 1.75rem;
+    margin-top: 1.5rem;
+
+    div {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+
+      p {
+        font-size: 14px;
+        color: var(--info);
+      }
+    }
+  }
+}
+
+.button {
+  margin-top: 4rem;
+  background: transparent;
+  border: 0;
+
+  color: var(--highlight);
+  font-weight: 600;
+  font-size: 18px;
+}
